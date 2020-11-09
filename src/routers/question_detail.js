@@ -107,6 +107,7 @@ class QuestionDetail extends React.Component {
                         value={this.state.codemirror.code}
                         options={this.state.codemirror.options}
                         onUpdate={(code)=>this.handleCodeChange(code)}
+                        input={(code)=>{this.handleCodeChange(code)}}
                         height={(document.documentElement.clientHeight || document.body.clientHeight) - 50}
                     />
                     <div className="codeButton">
@@ -119,7 +120,7 @@ class QuestionDetail extends React.Component {
     }
 
     handleCodeChange = (code) => {
-        console.log(code)
+        console.log("code:",code)
         // const codeMirror = this.refs.editor.getCodeMirror();
         // console.log(codeMirror.getSelection());
         // codeMirror.setValue(this.state.newCode);
