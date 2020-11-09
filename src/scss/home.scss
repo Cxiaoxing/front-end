@@ -1,0 +1,45 @@
+.title{
+    background-color: $keyColor;
+    color: #ffffff;
+    height: 50px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.user_photo{
+    width: 34px;
+    height: 34px;
+    margin-top: 20px;
+    border-radius: 50%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar {
+    background-color: #ffffff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+    position: absolute;
+    width: 48.2%;
+}
+
+/* .my-drawer .am-drawer-sidebar .am-list {
+} */
+
+// .page{
+//     display: none;
+// }
+
+// .page.active{
+//     display: block;
+// }

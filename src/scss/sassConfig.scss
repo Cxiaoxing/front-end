@@ -1,0 +1,25 @@
+// 全局
+
+// 颜色
+$keyColor:#2f6d91c2;
+$lightKeyColor: #6f9db9c2;
+$darkGrey: #dfdfdf;
+$Grey: #e2e2e2;
+$lightGrey: #f0f0f0;
+
+
+// 页面的标题
+.page_header{
+    margin: 10px 3px 10px 10px;
+    position: relative;
+    .page_icon{
+        float: left;
+    }
+    .page_title{
+        font-size: larger;
+        font-weight: 500;
+        margin-left: 8px;
+        top:10px;
+        position: absolute;
+    }
+}

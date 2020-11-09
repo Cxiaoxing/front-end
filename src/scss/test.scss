@@ -1,0 +1,16 @@
+.count_down{
+    display: flex;
+    vertical-align: auto;
+    background-color: #f7e2bb;
+    width: fit-content;
+    padding: 3px 6px;
+    .count_down_item{
+        background-color: #f7e2bb;
+        border: 2px solid #bd9a5b;
+        padding: 5px;
+        width: fit-content;
+    }
+    .colon{
+        margin: auto;
+    }
+}

@@ -1,0 +1,93 @@
+.am-search {
+    border-bottom: 1px solid #ddd;
+}
+
+.filter{
+    display: flex;
+    padding: 5px 18px;
+    background-color: rgb(235,235,242);
+}
+
+.default_sort{
+    flex:1;
+}
+
+.difficulty_sort{
+    flex:1;
+}
+
+.isPass_filter{
+    flex: 1;
+}
+
+.isKey_filter{
+    flex:1;
+}
+
+.filter_icon{
+    height: 18px;
+    width: auto;
+}
+
+.sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+}
+
+.card{
+    width: 100%;
+}
+
+.tag-container{
+    /* display: flex; */
+    padding-top: 9px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tag-container > div {
+    margin-left: 9px;
+    margin-bottom: 9px;
+}
+
+.questionItem{
+    height: calc(100vh*2);
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    transition: 0.4s ease;
+}
+
+.question_detail{
+    .detail{
+        padding: 0px 30px;
+        .example{
+            background-color: $darkGrey;
+            padding: 10px;
+        }
+    }
+    .code{
+        #codeTitle{
+            padding: 0px 30px;
+        }
+        .codeButton{
+            background-color: #000000;
+            display: flex;
+            button{
+                height: 50px;
+                margin: auto;
+                flex: 1;
+                color: #fff;
+                font-size: large;
+            }
+            #test{
+                background-color: rgb(250, 162, 128);
+            }
+            #submit{
+                background-color: rgb(105, 200, 119);
+            }
+        }
+    }
+}
+

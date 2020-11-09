@@ -1,0 +1,35 @@
+.card_header{
+    background-color: $lightKeyColor;
+}
+
+.card_body{
+    background-color: rgb(255, 255, 255);
+}
+
+.card_footer{
+    background-color: rgb(255, 255, 255);
+}
+
+.question_detail{    
+    .countdown{
+        float: right;
+    }
+}
+
+.count_down{
+    display: flex;
+    vertical-align: auto;
+    background-color: $lightGrey;
+    width: fit-content;
+    padding: 3px 6px;
+    .count_down_item{
+        background-color: $lightGrey;
+        border: 2px solid $Grey;
+        padding: 5px;
+        width: fit-content;
+    }
+    .colon{
+        margin: auto;
+    }
+}
+
